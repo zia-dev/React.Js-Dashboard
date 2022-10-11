@@ -10,6 +10,7 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import SettingsSystemDaydreamOutlinedIcon from "@mui/icons-material/SettingsSystemDaydreamOutlined";
 import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
+import Icons from "../icons/Icons.components";
 
 const Sidebar = () => {
     return (
@@ -23,59 +24,83 @@ const Sidebar = () => {
             </div>
             <div className="center pl-4">
                 <ul className='list-none p-0 m-0 uppercase '>
-                <p className="title text-ssm font-bold text-gray-400 mt-2.5 mb-1">MAIN</p>
+                    <p className="title text-ssm font-bold text-gray-400 mt-2.5 mb-1">MAIN</p>
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <DashboardIcon  className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <DashboardIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">dashboard</span>
                     </li>
                     <p className="title text-ssm font-bold text-gray-400 mt-2.5 mb-1">LISTS</p>
 
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <PersonOutlineIcon  className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <PersonOutlineIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">Users</span>
                     </li>
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <StoreIcon className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <StoreIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">Products</span>
                     </li>
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <CreditCardIcon className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <CreditCardIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">Orders</span>
                     </li>
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <LocalShippingIcon className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <LocalShippingIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">Delivery</span>
                     </li>
                     <p className="title text-ssm font-bold text-gray-400 mt-2.5 mb-1">USEFUL</p>
 
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <InsertChartIcon className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <InsertChartIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">Stats</span>
                     </li>
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <NotificationsNoneIcon className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <NotificationsNoneIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">Notification</span>
                     </li>
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <SettingsSystemDaydreamOutlinedIcon  className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <SettingsSystemDaydreamOutlinedIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">System Health</span>
                     </li>
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <PsychologyOutlinedIcon   className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <PsychologyOutlinedIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">Logs</span>
                     </li>
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <SettingsApplicationsIcon  className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <SettingsApplicationsIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">Settings</span>
                     </li>
                     <p className="title text-ssm font-bold text-gray-400 mt-2.5 mb-1">USER</p>
 
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <AccountCircleOutlinedIcon  className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <AccountCircleOutlinedIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">Profile</span>
                     </li>
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
-                        <ExitToAppIcon className="icon !text-lg text-purple-600"/>
+                        <Icons>
+                            <ExitToAppIcon />
+                        </Icons>
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">Log Out</span>
                     </li>
                 </ul>
