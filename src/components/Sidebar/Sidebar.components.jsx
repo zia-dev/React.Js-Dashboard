@@ -32,7 +32,6 @@ const Sidebar = () => {
                         <span className="font-semibold text-sm text-gray-500 ml-2.5">dashboard</span>
                     </li>
                     <p className="title text-ssm font-bold text-gray-400 mt-2.5 mb-1">LISTS</p>
-
                     <li className="flex items-center p-1 cursor-pointer hover:bg-purple-100">
                         <Icons>
                             <PersonOutlineIcon />
